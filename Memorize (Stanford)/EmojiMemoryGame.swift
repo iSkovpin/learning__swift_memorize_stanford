@@ -11,8 +11,8 @@ class EmojiMemoryGame {
     private var model: MemoryGame<String> = EmojiMemoryGame.createMemoryGame()
     
     static func createMemoryGame() -> MemoryGame<String> {
-        let emojis: Array = ["🎃", "👻", "🧠", "🕷"]
-        return MemoryGame<String>(numberOfPairsOfCards: emojis.count) {pairIndex in emojis[pairIndex]}
+        let emojis: Array = ["🎃", "👻", "🧠", "🕷", "👨‍❤️‍👨"]
+        return MemoryGame<String>(numberOfPairsOfCards: Int.random(in: 2...5)) {pairIndex in emojis[pairIndex]}
     }
     
     // MARK: - Access to the Model
