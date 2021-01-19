@@ -9,7 +9,7 @@ import SwiftUI
 
 struct EmojiMemoryGameView: View {
     @ObservedObject var viewModel: EmojiMemoryGame
-    
+
     var body: some View {
         HStack {
             ForEach(viewModel.cards) {
@@ -19,13 +19,13 @@ struct EmojiMemoryGameView: View {
                 }.aspectRatio(2 / 3, contentMode: .fit)
             }
         }.foregroundColor(Color.orange)
-        .padding()
+                .padding()
     }
 }
 
 struct CardView: View {
     var card: MemoryGame<String>.Card
-    
+
     var body: some View {
         GeometryReader {
             geometry in
@@ -40,11 +40,11 @@ struct CardView: View {
             }.font(Font.system(size: fontSize(for: geometry.size)))
         }
     }
-    
+
     // MARK: - Drawing Constants
-    
     let cornerRadius: CGFloat = 10.0
     let edgeLineWidth: CGFloat = 3
+
     func fontSize(for size: CGSize) -> CGFloat {
         min(size.width, size.width) * 0.75
     }
