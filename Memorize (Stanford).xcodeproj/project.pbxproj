@@ -13,7 +13,9 @@
 		2C11C92F25A610F4001EF9B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C11C92E25A610F4001EF9B4 /* Preview Assets.xcassets */; };
 		2CBCA77625B17FFC008B6030 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBCA77525B17FFC008B6030 /* MemoryGame.swift */; };
 		2CBCA77925B181F5008B6030 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBCA77825B181F5008B6030 /* EmojiMemoryGame.swift */; };
+		31821764E1E9FE7888B7CA9F /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3182116B95797EF5B9EB3A34 /* GridLayout.swift */; };
 		31821CB19336F396C77CD019 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 318217E0022C73025A89B92E /* .gitignore */; };
+		31821CFFEB5E04F7F8A2B417 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318214A38DE5CAB3459FA2FD /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		2C11C93025A610F4001EF9B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CBCA77525B17FFC008B6030 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		2CBCA77825B181F5008B6030 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		3182116B95797EF5B9EB3A34 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		318214A38DE5CAB3459FA2FD /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		318217E0022C73025A89B92E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +70,8 @@
 				2C11C92B25A610F4001EF9B4 /* Assets.xcassets */,
 				2C11C93025A610F4001EF9B4 /* Info.plist */,
 				2C11C92D25A610F4001EF9B4 /* Preview Content */,
+				318214A38DE5CAB3459FA2FD /* Grid.swift */,
+				3182116B95797EF5B9EB3A34 /* GridLayout.swift */,
 			);
 			path = "Memorize (Stanford)";
 			sourceTree = "<group>";
@@ -152,6 +158,8 @@
 				2C11C92A25A610F3001EF9B4 /* EmojiMemoryGameView.swift in Sources */,
 				2C11C92825A610F3001EF9B4 /* Memorize__Stanford_App.swift in Sources */,
 				2CBCA77925B181F5008B6030 /* EmojiMemoryGame.swift in Sources */,
+				31821CFFEB5E04F7F8A2B417 /* Grid.swift in Sources */,
+				31821764E1E9FE7888B7CA9F /* GridLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
