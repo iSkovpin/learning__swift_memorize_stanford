@@ -45,7 +45,7 @@ struct CardView: View {
     let edgeLineWidth: CGFloat = 3
 
     func fontSize(for size: CGSize) -> CGFloat {
-        min(size.width, size.width) * 0.75
+        min(size.width, size.width) * 0.7
     }
 }
 
